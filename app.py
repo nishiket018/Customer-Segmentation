@@ -46,7 +46,7 @@ app_password = st.text_input("Enter your Google App Password", type="password")
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
 
 # User input for selecting number of clusters
-num_clusters = st.selectbox("Select number of clusters", [2, 3, 4, 5, 6, 7, 8, 9, 10])
+num_clusters = st.selectbox("Select number of clusters", [2, 3, 4, 5, 6, 7, 8, 9])
 
 if uploaded_file is not None and sender_email and app_password:
     # Read CSV
