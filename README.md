@@ -1,4 +1,6 @@
 Customer Segmentation App
+
+
 This is a web application built using Streamlit that performs customer segmentation using K-Means clustering. The app allows users to upload a CSV file containing customer data and dynamically select the number of clusters. Based on the clusters, the app will send personalized emails to customers based on their groupings.
 
 Features
