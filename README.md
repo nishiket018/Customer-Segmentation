@@ -30,4 +30,6 @@ The CSV file that you upload should contain the following columns:
  - PRC_FULL_PAYMENT
  - TENURE
  - email
+
+   
 Make sure that the file has these columns for proper functionality.
